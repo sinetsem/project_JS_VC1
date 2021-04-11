@@ -1,0 +1,188 @@
+body {
+    font-family: sans-serif;
+    background-color: rgba(133, 131, 131, 0.247);
+}
+.container {
+    
+    width: 80%;
+    margin: auto;
+    
+}
+
+h3 {
+    text-align: center;
+}
+
+h1{
+    text-align: center;
+    padding: 10px;
+}
+
+
+#Search{
+    width: 58%;
+    padding: 7px;
+    outline: none;
+    margin-left: 215px;
+    margin-bottom: 40px;
+    
+}
+
+#btnCreat {
+    width: 98.7%;
+    padding: 10px;
+    outline: none;
+    border: none;
+    margin-top: 20px;
+    color: white;
+    cursor: pointer;
+    background: rgb(7, 199, 71);
+    
+}
+
+#btnClose{
+    background: rgb(238, 15, 15);
+    margin-bottom: 10px;
+    display: none;
+    padding: 10px;
+    outline: none;
+    border: none;
+    color: white;
+    cursor: pointer;
+    width: 97.8%;
+    margin-top: 17px;
+    
+}
+.content {
+    justify-content: center;
+    width: 90%;
+    display: flex;
+    height: auto;
+    margin: auto;
+}
+
+.body_content{
+    padding: 20px;
+    background: rgb(189, 241, 248);
+    width: 62%;
+    border: 2px solid rgba(10, 10, 168, 0.473);
+    border-radius: 25px;
+}
+
+.FormOne input[type=date],.FormOne input[type=text],.FormOne input[type=number]{
+    padding: 5px;
+    margin: 7px;
+    outline: none;
+    width: 81%;
+    
+}
+.FormOne {
+    display: none;
+}
+#subject {
+    margin-left: 26px;
+}
+
+#score{
+    margin-left: 32px;
+}
+
+#StartId,#EndId{
+    margin-left: 9px;
+}
+
+#Add {
+    width: 97.8%;
+    background: rgba(50, 36, 245, 0.74);
+    padding: 10px;
+    border: none;
+    outline: none;
+    margin-top: 10px;
+    color: white;
+    cursor: pointer;
+}
+
+
+
+
+.card {
+
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+
+
+}
+
+.student_info {
+    background: rgb(253, 250, 250);
+    padding: 10px;
+    margin-top: 20px;
+    width: 75%;
+    justify-content: space-between;
+    display: flex;
+   
+    
+}
+
+
+
+
+
+
+.delete {
+    
+    border-radius: 2px;
+    background-color: #dc3545;
+    border: none;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 15px;  	
+    padding: 1px 5px;
+    cursor: pointer;
+    border-radius: 50%;
+} 
+
+.delete:hover{
+	background: #da190b;
+}
+
+
+.btn_Firstdate{
+    margin-top: 31px;
+}
+.Firstdate {
+    border: 2px solid rgba(84, 47, 248, 0.534);
+    text-align: center;
+    padding: 8px;
+    margin-right: 8px;
+ 
+       
+}
+
+
+
+h4 {
+    text-align: center;
+    
+}
+
+.FormTwo input[type=number]{
+    padding: 5px;
+    margin-top: 15px;
+    width: 82%;
+    outline: none;
+}
+
+#Min {
+    margin-left: 5px;
+}
+
+
+
+  
+
+
+
+
+

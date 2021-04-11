@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project JavaScript</title>
+    <link rel="stylesheet" href="css/app.css">
+    
+</head>
+<body>
+  <div class="container">
+    
+    <h1> THE SCORES OF STUDENTS</h1>
+    <form id ="search_Name">
+      <input type="text" placeholder="search" id = "Search">
+
+    </form>
+    
+    <div class="content">
+      <div class = "body_content">
+          <form action="#" class="FormOne">
+            <h3>REGISTER FORM</h3>
+            <div class="student_name">
+              Full Name: <input type="text" id = "name">  
+            </div>
+            <div class="student_subject">
+              Subject: <input type="text" id="subject" >
+            </div>
+            <div class="student_score">
+              Score : <input type="number" id="score" min="0" max="100" placeholder="0-100">
+            </div>
+            <div class="Fisrt_Date">
+              FirstDate : <input type="date" id="StartId" >
+            </div>
+            <div class="Last_Date">
+              LastDate : <input type="date" id="EndId" >
+            </div>
+            
+            <button id = "Add">ADD</button>
+            
+            
+          </form>
+          <form class="FormTwo">
+            <h4>FIND SCORES ARE BETWEEN MIN AND MAX</h4>
+            <div class="Min_Score">
+              Min Score: <input type="number" id = "Min" >
+            </div>
+            <div class="Max_Score">
+              Max Score: <input type="number" id ="Max" >
+            </div>
+            
+            
+          </form>
+          <div class = "Button">
+            <button id = "btnCreat">CREATE</button>
+            <button id = "btnClose"> CLOSE</button>
+          </div>
+          <div class = "listcard">
+           
+            <div class = "card">
+              <div class ="student_info">
+                <span class="Name">Chantha Sin</span>
+                <span class = "Subject">Maths</span>
+                <span class ="Score">100</span>
+                <span class = "LastDate">2021-04-21</span>
+                <span class="delete">x</span>
+              </div>
+              <div class = "btn_Firstdate">
+                <span class="Firstdate">2021-04-15</span>
+              </div>
+            </div>
+            
+            <div class = "card">
+              <div class ="student_info">
+                <span class="Name">Chantha Sin</span>
+                <span class = "Subject">Maths</span>
+                <span class ="Score">50</span>
+                <span class = "LastDate">2021-04-21</span>
+                <span class="delete">x</span>
+              </div>
+              <div class = "btn_Firstdate">
+                <span class="Firstdate">2021-04-15</span>
+              </div>
+              
+            </div>
+            
+            <div class = "card">
+              <div class ="student_info">
+                <span class="Name">Chantha Sin</span>
+                <span class = "Subject">Maths</span>
+                <span class ="Score">60</span>
+                <span class = "LastDate">2021-04-21</span>
+                <span class="delete">x</span>
+              </div>
+              <div class = "btn_Firstdate">
+                <span class="Firstdate">2021-04-15</span>
+              </div>
+            </div>
+            
+          
+      </div>
+      
+
+    </div>
+  </div> 
+    <script src = "js/app.js"></script>
+</body>
+</html>
